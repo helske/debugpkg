@@ -1,0 +1,15 @@
+Package: debugpkg
+Type: Package
+Title: Package for Debugging
+Version: 0.1.0
+Author: Jouni Helske
+Maintainer: Jouni Helske <jouni.helske@jyu.fi>
+Description: Package is mostly for personal use, ready skeleton for debugging C++ code.
+License: GPL-3
+LazyData: TRUE
+LinkingTo: Rcpp, RcppArmadillo
+Depends:
+    R (>= 3.2.0)
+Imports:
+    Rcpp (>= 0.11.3)
+RoxygenNote: 5.0.1
