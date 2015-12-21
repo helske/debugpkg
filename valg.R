@@ -8,4 +8,4 @@ armainv(X)
 # this works seeminly fine but valgrind gives an error
 armainv_pd(X)
 
-# R -d "valgrind --tool=memcheck --leak-check=full" --vanilla < valg.R
+# R -d "valgrind --tool=memcheck --leak-check=full --track-origins=yes" --vanilla < valg.R
